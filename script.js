@@ -70,4 +70,5 @@ for (let i = 1; i <= 5; i++) playGame()
 
 console.log(`\n*****final score:******\nHuman = ${humanScore} VS computer = ${computerScore}\n\n`)
 let winner = (computerScore > humanScore) ? "Winner : 🤖Computer🥳🎊" : (humanScore > computerScore) ? "Winner : 👨Human🥳🎊" : "Its a tei. Every Body Wins🤗🫂🥳🎊🥳🎊";
+alert(`\n*****final score:******\nHuman = ${humanScore} VS computer = ${computerScore}\n\n${winner}`)
 console.log(winner)
